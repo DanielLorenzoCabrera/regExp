@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+    background-color: dodgerblue;
+}
+
+p{
+    font-size: 2em;
+    color: floralwhite;
+    text-align: center;
+}
+
+input{
+    text-align: center;
+    padding: 1em 2em ;
+}
+
+
+
+.regexp{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 30vh;
+    
+    align-items: center;
+    justify-content: space-around;
+    background-color: dodgerblue;
+    padding: 1em;
+    margin: 4em auto;
+}
+
+.valores{
+    font-weight: bolder;
+    color: rgb(246, 227, 54);
+    text-shadow: 0 0 .1em black;
+}
